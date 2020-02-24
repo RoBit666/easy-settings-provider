@@ -1,7 +1,8 @@
 {
   "name": "com.robit.easysettingsprovider",
+  "displayName": "Easy Settings Provider",
   "description": "Package for easy creating settings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2019.3",
   "keywords": [
     "Unity",
