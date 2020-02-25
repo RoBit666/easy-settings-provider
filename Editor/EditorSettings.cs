@@ -27,7 +27,7 @@ namespace Robit.ESP
                 return attribute != null;
             });
             
-            var instance = CreateInstance(editorTypeForSettings) as EditorSettings;
+            var instance = editorTypeForSettings == null ? CreateInstance<EditorSettings>() : CreateInstance(editorTypeForSettings) as EditorSettings;
             if (instance != null)
             {
                 instance._target = obj;
